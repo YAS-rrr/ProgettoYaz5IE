@@ -232,4 +232,4 @@ eBay, Catawiki, Christie's, Sotheby's.
 (Moderare inserzioni)<(Risolvere controversie)
 (Verificare identità)>(Gestire utenti)
 
-![Diagramma dei casi d'uso di ASTRA](diagram.png)s
+![Diagramma dei casi d'uso di ASTRA](diagram.png)
