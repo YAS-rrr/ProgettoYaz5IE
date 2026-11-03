@@ -166,8 +166,6 @@ eBay, Catawiki, Christie's, Sotheby's.
 
 ## 📊 Diagramma dei Casi d'Uso (UML)
 
-
-
 ```yuml
 // --- ATTORI ---
 [Utente]
@@ -232,4 +230,10 @@ eBay, Catawiki, Christie's, Sotheby's.
 (Moderare inserzioni)<(Risolvere controversie)
 (Verificare identità)>(Gestire utenti)
 
-![Diagramma dei casi d'uso di ASTRA](diagram.png)
+
+
+## 📊 Diagramma dei Casi d'Uso (UML)
+
+<p align="center">
+  <img src="diagram.png" alt="Diagramma dei casi d'uso di ASTRA" width="700">
+</p>
