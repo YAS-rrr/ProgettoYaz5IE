@@ -161,13 +161,20 @@ eBay, Catawiki, Christie's, Sotheby's.
 - **Valutazione bene:** Come perito, voglio valutare i beni di alto valore e rilasciare certificazioni, così gli acquirenti possono fidarsi dell'autenticità dell'oggetto.
 - **Consegna bene:** Come corriere, voglio consegnare i beni fisici all'acquirente, così la transazione può essere completata.
 
+---
 
+---
 
+## Diagramma grafico UML
+
+<p align="center">
+  <img src="diagram.png" alt="Diagramma dei casi d'uso di ASTRA" width="700">
+</p>
 
 ## 📊 Diagramma dei Casi d'Uso (UML)
 
 ```yuml
-// --- ATTORI ---
+
 [Utente]
 [Venditore]^[Utente]
 [Acquirente]^[Utente]
@@ -178,21 +185,21 @@ eBay, Catawiki, Christie's, Sotheby's.
 [Corriere]
 
 
-// --- CASI D'USO GENERALI (Utente) ---
+
 [Utente]-(Registrarsi)
 [Utente]-(Effettuare Login)
 [Utente]-(Effettuare Logout)
 (Effettuare Logout)>(Effettuare Login)
 (Effettuare Login)>(Registrarsi)
 
-// --- CASI D'USO VENDITORE ---
+
 [Venditore]-(Creare asta)
 [Venditore]-(Gestire proprie aste)
 [Venditore]-(Visualizzare offerte ricevute)
 [Venditore]-(Concludere vendita)
 [Venditore]-(Richiedere perizia)
 
-// --- CASI D'USO ACQUIRENTE ---
+
 [Acquirente]-(Cercare aste)
 [Acquirente]-(Visualizzare dettaglio asta)
 [Acquirente]-(Fare offerta)
@@ -200,7 +207,7 @@ eBay, Catawiki, Christie's, Sotheby's.
 [Acquirente]-(Pagare aggiudicazione)
 [Acquirente]-(Lasciare recensione)
 
-// --- CASI D'USO ADMIN & MODERATORE ---
+
 [Admin]-(Gestire utenti)
 [Admin]-(Gestire categorie)
 [Admin]-(Gestire commissioni)
@@ -209,14 +216,14 @@ eBay, Catawiki, Christie's, Sotheby's.
 [Moderatore]-(Verificare identità)
 [Moderatore]-(Verificare autenticità bene)
 
-// --- CASI D'USO ATTORI ESTERNI ---
+
 [Perito]-(Valutare bene)
 [Perito]-(Rilasciare certificazione)
 [Sistema Pagamento/Escrow]-(Gestire transazione)
 [Corriere]-(Consegnare bene)
 
 
-// --- RELAZIONI INCLUDE (>) ED EXTEND (<) ---
+
 (Creare asta)<(Richiedere perizia)
 (Richiedere perizia)>(Valutare bene)
 
@@ -231,9 +238,3 @@ eBay, Catawiki, Christie's, Sotheby's.
 (Verificare identità)>(Gestire utenti)
 
 
-
-## 📊 Diagramma dei Casi d'Uso (UML)
-
-<p align="center">
-  <img src="diagram.png" alt="Diagramma dei casi d'uso di ASTRA" width="700">
-</p>
