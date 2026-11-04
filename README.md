@@ -1,27 +1,27 @@
 # ProgettoYaz5IE
-# 🏛️ ASTRA
+# ASTRA
 
 **Tagline:** *"Il valore lo decide il mercato. Tu scegli cosa mettere all'asta."*
 
-## 📖 Descrizione del Progetto
+##  Descrizione del Progetto
 
 **ASTRA** è una piattaforma web di aste digitali che mette in contatto venditori e acquirenti di beni reali — come immobili, opere d'arte, oggetti da collezione, auto d'epoca e beni di lusso. Attraverso un sistema di aste trasparenti e dinamiche, il prezzo di un bene emerge dalla domanda reale del mercato. Il venditore può valorizzare al meglio i propri beni, mentre l'acquirente ha accesso a nuove opportunità di acquisto in un ambiente sicuro e regolamentato.
 
-## ❓ Problema
+##  Problema
 
 I mercati tradizionali (agenzie immobiliari, gallerie d'arte, mercatini dell'usato) sono spesso lenti, opachi e con prezzi fissati o negoziati in modo poco trasparente. Chi vende fatica a raggiungere un pubblico ampio e a ottenere il giusto valore; chi compra non ha sempre visibilità sul reale valore di mercato di un bene.
 
-## 🎯 Target
+##  Target
 
 Collezionisti, appassionati d'arte, investitori immobiliari, cacciatori di affari, giovani adulti interessati a oggetti unici, privati che desiderano vendere beni di valore, gallerie, agenzie immobiliari e case d'asta.
 
-## 🏆 Competitors
+##  Competitors
 
 eBay, Catawiki, Christie's, Sotheby's.
 
 ---
 
-## 🚀 Funzionalità
+## Funzionalità
 
 ### 1. Registrazione e Accesso
 - Registrazione tramite nome, email e password
@@ -79,7 +79,7 @@ eBay, Catawiki, Christie's, Sotheby's.
 
 ---
 
-## 📋 Classificazione dei Requisiti
+##  Classificazione dei Requisiti
 
 ### Requisiti Funzionali
 | Requisito | Tipo |
@@ -116,7 +116,7 @@ eBay, Catawiki, Christie's, Sotheby's.
 
 ---
 
-## 👥 Attori
+##  Attori
 
 - **Venditore:** Utilizza la piattaforma per creare aste, gestire i propri beni e concludere le vendite.
 - **Acquirente / Offerente:** Sfoglia le aste, fa offerte, monitora i preferiti e paga le aggiudicazioni.
@@ -128,7 +128,7 @@ eBay, Catawiki, Christie's, Sotheby's.
 
 ---
 
-## 📝 User Stories
+##  User Stories
 
 *Il formato standard utilizzato per definire i requisiti è: "Come [chi], voglio [cosa], così posso [perché]."*
 
@@ -171,7 +171,7 @@ eBay, Catawiki, Christie's, Sotheby's.
   <img src="diagram.png" alt="Diagramma dei casi d'uso di ASTRA" width="700">
 </p>
 
-## 📊 Diagramma dei Casi d'Uso (UML)
+##  Diagramma dei Casi d'Uso (UML)
 
 ```yuml
 
