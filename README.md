@@ -155,7 +155,7 @@ eBay, Catawiki, Christie's, Sotheby's.
 - **Gestione controversie:** Come amministratore, voglio risolvere le controversie tra acquirenti e venditori, così posso gestire i problemi in modo equo.
 - **Gestione commissioni:** Come amministratore, voglio gestire le commissioni e i pagamenti della piattaforma, così il modello di business funziona correttamente.
 
-### Servizi Esterni (Perito, Corriere, Notaio)
+### Servizi Esterni (Perito, Corriere)
 
 - **Valutazione bene:** Come perito, voglio valutare i beni di alto valore e rilasciare certificazioni, così gli acquirenti possono fidarsi dell'autenticità dell'oggetto.
 - **Consegna bene:** Come corriere, voglio consegnare i beni fisici all'acquirente, così la transazione può essere completata.
