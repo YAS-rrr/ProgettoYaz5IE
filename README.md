@@ -39,7 +39,7 @@ eBay, Catawiki, Christie's, Sotheby's.
 - Ricerca avanzata per categoria (Immobiliare, Arte, Collezionismo, Lusso, Elettronica, Altro), prezzo, località
 - Visualizzazione del dettaglio dell'asta (foto, descrizione, tempo rimanente, offerte attuali)
 - Utilizzo di filtri di ricerca rapidi
-- Salvataggio delle aste nella Watchlist (Preferiti)
+
 
 ### 4. Sistema di Offerte (Aste)
 - Invio di un'offerta con importo superiore all'offerta minima corrente
@@ -130,7 +130,6 @@ eBay, Catawiki, Christie's, Sotheby's.
 
 ##  User Stories
 
-*Il formato standard utilizzato per definire i requisiti è: "Come [chi], voglio [cosa], così posso [perché]."*
 
 ### Gestione Account & Aste (Venditore)
 
